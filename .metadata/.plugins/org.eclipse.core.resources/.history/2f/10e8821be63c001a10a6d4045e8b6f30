@@ -1,0 +1,11 @@
+package di.constructor01;
+
+public interface AbstractDice {
+
+	public AbstractDice() {
+		super();
+		
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package app2;
+
+public class MyBeanFunc {
+	
+	private String name;
+	
+	
+}

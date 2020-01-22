@@ -1,0 +1,24 @@
+package di.constructor01;
+
+
+public class Player {
+	
+	
+	public Player(Dice d, int totalValue) {
+		super();
+		this.d = d;
+		this.totalValue = totalValue;
+	}
+	
+	Dice d = new Dice();
+	int totalValue=0;
+	public void play(){
+		totalValue=0;
+		for (int i = 0; i < 3; i++) {
+			totalValue+=d.getDiceValue();
+		}
+	}
+	public int getTotalValue(){
+		return totalValue;
+	}
+}

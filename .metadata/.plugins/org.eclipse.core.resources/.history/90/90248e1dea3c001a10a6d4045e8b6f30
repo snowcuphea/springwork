@@ -1,0 +1,9 @@
+package mypractice;
+
+public interface AbstractPlayer {
+
+	int getTotalValue();
+
+	void play();
+
+}

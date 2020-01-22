@@ -1,0 +1,12 @@
+package app2;
+
+public class MyBeanStyleA implements MyBeanStyle {
+
+	@Override
+	public void hello(String name) {
+		// TODO Auto-generated method stub
+		System.out.println("¾È³ç...," + name);
+
+	}
+
+}

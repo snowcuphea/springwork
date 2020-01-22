@@ -1,0 +1,12 @@
+package app3;
+
+public class MyBeanStyleA extends MyBeanStyle {
+
+	@Override
+	public void hello(String name) {
+		// TODO Auto-generated method stub
+		System.out.println("¾È³ç...," + name);
+
+	}
+
+}

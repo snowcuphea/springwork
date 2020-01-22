@@ -1,0 +1,29 @@
+package app2;
+
+public class MyBeanFunc {
+	
+	private String name;
+	
+
+	public MyBeanFunc() {
+		super();
+
+	}
+
+	public MyBeanFunc(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
+}

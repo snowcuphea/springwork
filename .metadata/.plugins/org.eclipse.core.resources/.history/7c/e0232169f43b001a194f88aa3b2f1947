@@ -1,0 +1,18 @@
+package exam01;
+
+public class TVUser {
+	public static void main(String[] args) {
+		TV tv = new SamsungTV(); //동일한 부모 타입으로 객체 생성해야 한다. 
+		tv.turnOn();
+		tv.soundUp();
+		tv.soundDown();
+		tv.turnOff();
+		
+		TV lgtv = new LgTV();
+		lgtv.turnOn();
+		lgtv.soundUp();
+		lgtv.soundDown();
+		lgtv.turnOff();
+	}
+
+}

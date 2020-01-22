@@ -1,0 +1,27 @@
+package basic;
+public class InsaImpl implements Insa {
+	MemberDAO dao;
+	//1. null 오류 없애기 ! : 생성자를 이용해 작업
+		
+	
+	public InsaImpl(MemberDAO dao) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	@Override
+	public void addUser(MemberDTO user) {
+		dao.add(user);		
+	}
+
+
+
+	@Override
+	public MemberDTO getUser(String id) {
+		MemberDTO mem = new MemberDTO();
+
+		dao.getUser("id");
+		return mem;
+	}
+
+}

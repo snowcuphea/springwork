@@ -1,0 +1,11 @@
+package di.constructor01;
+
+public abstract class AbstractDice {
+
+	public AbstractDice() {
+		super();
+		
+	}
+	
+
+}
