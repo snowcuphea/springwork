@@ -2,4 +2,5 @@
 <aop-reference-model>
 <aop-project name="springbasic"/>
 <aop-project name="springdi"/>
+<aop-project name="annotation"/>
 </aop-reference-model>

@@ -12,6 +12,7 @@ public class Player implements AbstractPlayer {
 	public Player(AbstractDice d) {
 		super();
 		this.d = d; //외부에서 받아오는 값이 d 뿐이기 떄문에 d에 해당하는 생성자만 만들어준다. 
+		System.out.println("Player의 매개변수 1개 생성자");
 	}
 	public void play(){
 		totalValue=0;
