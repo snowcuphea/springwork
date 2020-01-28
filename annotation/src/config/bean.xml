@@ -13,5 +13,6 @@
 		 <context:component-scan base-package="exam.anno01"></context:component-scan>
 		 <context:component-scan base-package="exam.anno02"></context:component-scan>
 		  <context:component-scan base-package="exam.anno03"></context:component-scan>
+		  <context:component-scan base-package="exam.practice.tv"></context:component-scan>
 
 </beans>

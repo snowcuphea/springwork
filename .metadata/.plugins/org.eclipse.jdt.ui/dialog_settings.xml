@@ -3,7 +3,7 @@
 	<item value="false" key="Replace"/>
 	<item value="false" key="Annotations"/>
 	<item value="false" key="Comments"/>
-	<item value="C:\iot\setup\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\iot\setup\spring-framework-4.2.4.RELEASE-dist\spring-framework-4.2.4.RELEASE\libs" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="false" key="InstanceOf"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
@@ -20,8 +20,8 @@
 		<item value="425" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="681" key="DIALOG_HEIGHT"/>
-		<item value="114" key="DIALOG_X_ORIGIN"/>
-		<item value="-10" key="DIALOG_Y_ORIGIN"/>
+		<item value="539" key="DIALOG_X_ORIGIN"/>
+		<item value="31" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
@@ -36,6 +36,17 @@
 		<item value="869" key="DIALOG_HEIGHT"/>
 		<item value="635" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="647" key="DIALOG_X_ORIGIN"/>
+			<item value="122" key="DIALOG_Y_ORIGIN"/>
+		</section>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
@@ -95,7 +106,7 @@
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="7" key="index"/>
+		<item value="6" key="index"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
@@ -106,6 +117,8 @@
 		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item value="277" key="contextSelector.size.y"/>
+		<item value="337" key="contextSelector.size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>
